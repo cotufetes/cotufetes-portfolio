@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cotufetes - Web Designer & Developer Portfolio by Miriam Ferrer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/cotufetes-favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    </head>
+    <body>
+        <header class="page-header section__contrast">
+            <a href="index.html" class="page-header__item navigation-logo">
+                <img src="img/cotufetes-logo.svg" alt="Cotufetes logo, consisting of two rounded asterisks.">
+            </a>
+            <nav class="page-header__item main-navigation">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Contact</h1>
+                <p>Miriam Ferrer</p>
+                <p>
+                    <a href="mailto:cotufetes@gmail.com">cotufetes(at)gmail(dot)com</a>
+                </p>
+                <p>
+                    <a href="tel:+4915206451262">Call me</a>
+                </p>
+                <p>
+                    <a href="mailto:cotufetes@gmail.com">Email me</a>
+                </p>
+                <form action="/contact-form-action" method="post" id="contact-form">
+                    <label class="standard-label" for="contact-name">Name: </label>
+                    <input type="text" id="contact-name">
+                
+                    <label class="standard-label" for="contact-email">Email: </label>
+                    <input type="email" id="contact-email" required>
+                
+                    <label class="standard-label" for="contact-message">Message: </label>
+                    <textarea maxlength="240" id="contact-message" required></textarea>
+                
+                    <input type="submit" value="Send message">
+                </form>
+            </div>
+        </main>
+        <footer class="page-footer section__contrast">
+            <p>Find me on</p>
+            <div class="social-media">
+                <a href="#">
+                    <img src="img/github-icon.svg" class="social-media__icon" alt="Github">
+                </a>
+                <a href="#">
+                    <img src="img/behance-icon.svg" class="social-media__icon" alt="Behance">
+                </a>
+                <a href="#">
+                    <img src="img/linkedin-icon.svg" class="social-media__icon" alt="LinkedIn">
+                </a>
+            </div>
+        </footer>
+        <script src="js/tota11y.min.js"></script>
+    </body>
+</html>
