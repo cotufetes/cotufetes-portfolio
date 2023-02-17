@@ -383,6 +383,11 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
     }
 }
 
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
 /*-------Contact-----------------------------------------------*/
 
 #contact-form {
