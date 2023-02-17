@@ -383,6 +383,32 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
     }
 }
 
+/*-------Contact-----------------------------------------------*/
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+.contact-form__label, .contact-form__button  {
+    margin: var(--medium-space) 0 var(--tiny-space) 0;
+}
+
+.contact-form__input {
+    border: var(--border-link) var(--secondary-color);
+    padding: var(--tiny-space);
+    font-size: 0.8em;
+}
+
+.contact-form__button {
+    width: 50%;
+}
+
 /*-------Responsiveness-------------------------------------------*/
 
 @media all and (max-width: 576px) {
@@ -446,6 +472,10 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
 
     .profile-portrait, .animated-illustration {
         float: none;
+        width: 100%;
+    }
+
+    #contact-form {
         width: 100%;
     }
   
