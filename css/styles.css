@@ -298,6 +298,23 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
     margin-top: var(--small-space);
 }
 
+.skills-table {
+    margin-left: var(--large-space);
+}
+
+.skills-table th, td {
+    text-align:left;
+    padding-right: var(--large-space);
+}
+
+.skills-table th {
+    padding-bottom: var(--medium-space);
+}
+
+.skills-table td {
+    padding-bottom: var(--small-space);
+}
+
 .animated-illustration {
     background-image: url('../img/miriam-illustration-static.svg');
 }
