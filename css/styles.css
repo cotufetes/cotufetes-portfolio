@@ -87,7 +87,7 @@ On dark background (yellow): #F9B438;
     --image-frame: 50% 50% 0 0;
 }
 
-* {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
@@ -382,7 +382,6 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
         margin: 0;
     }
 }
-
 
 /*-------Responsiveness-------------------------------------------*/
 
