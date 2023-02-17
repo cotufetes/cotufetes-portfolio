@@ -290,12 +290,8 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
 
 /*-------About-----------------------------------------------*/
 
-.more-about__list {
-    list-style-type: none;
-}
-
-.more-about__list li {
-    padding-bottom: var(--small-space);
+.animated-illustration {
+    background-image: url('../img/miriam-illustration-static.svg');
 }
 
 @keyframes nose-color {
@@ -325,6 +321,14 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
 
 .eyebrows {
     animation: 0.6s eyebrows-move infinite alternate linear;
+}
+
+.more-about__list {
+    list-style-type: none;
+}
+
+.more-about__list li {
+    padding-bottom: var(--small-space);
 }
 
 /*-------Work-----------------------------------------------*/
