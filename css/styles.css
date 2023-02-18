@@ -430,6 +430,11 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
         font-size: 1.2em;
     }
 
+    .skills-table {
+        margin-left: var(--small-space);
+        font-size: 0.8em;
+    }
+
     .project-list {
       grid-template-columns: 1fr;
     }
@@ -448,6 +453,11 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
 
     h3 {
         font-size: 1.5em;
+    }
+
+    .skills-table {
+        margin-left: var(--medium-space);
+        font-size: 1em;
     }
     
 }
@@ -483,6 +493,10 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
     .profile-portrait, .animated-illustration {
         float: none;
         width: 100%;
+    }
+    
+    .skills-table th, td {
+        padding-right: var(--small-space);
     }
 
     #contact-form {
