@@ -422,7 +422,7 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
       font-size: 2.2em;
     }
 
-    h2 {
+    h2, .intro-paragraph {
         font-size: 1.5em;
     }
 
@@ -442,7 +442,7 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
       font-size: 3em;
     }
 
-    h2 {
+    h2, .intro-paragraph {
         font-size: 2em;
     }
 
@@ -463,10 +463,15 @@ a.navigation-list__item:hover, a.navigation-list__item:focus, a.navigation-list_
     }
 
     .page-header {
+        /*clear:both;*/
         flex-direction: column;
         height: 150px;
         padding: var(--tiny-space);
         margin-bottom: 70px;
+    }
+
+    .page-header__item:last-child {
+        text-align: center;
     }
 
     .navigation-list li {
