@@ -514,12 +514,17 @@ td {
       font-size: 2.2em;
     }
 
-    h2 {
+    h2, .intro-paragraph {
         font-size: 1.5em;
     }
 
     h3 {
         font-size: 1.2em;
+    }
+
+    .skills-table {
+        margin-left: 15px;
+        font-size: 0.8em;
     }
 
     .project-list {
@@ -535,12 +540,17 @@ td {
       font-size: 3em;
     }
 
-    h2 {
+    h2, .intro-paragraph {
         font-size: 2em;
     }
 
     h3 {
         font-size: 1.5em;
+    }
+
+    .skills-table {
+        margin-left: 40px;
+        font-size: 1em;
     }
     
 }
@@ -556,10 +566,7 @@ td {
     }
 
     .page-header {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        clear: both;
         height: 150px;
         padding: 10px;
         margin-bottom: 70px;
@@ -574,6 +581,14 @@ td {
     .profile-portrait, .animated-illustration {
         float: none;
         width: 100%;
+    }
+    
+    .skills-table th {
+        padding-right: 15px;
+    }
+    
+    td {
+        padding-right: 15px;
     }
 
     #contact-form {
